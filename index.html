@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfoMerlin | Consultoria em T.I</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">InfoMerlin</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+    <nav id="nav">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero visible">
+    <h1>Transformamos T.I em Resultados</h1>
+    <p>Soluções inteligentes e sob medida para o seu negócio.</p>
+    <a class="btn" href="#contato">Solicitar Orçamento</a>
+  </section>
+
+  <section id="sobre">
+    <h2>Quem Somos</h2>
+    <p>A InfoMerlin é especializada em consultoria e desenvolvimento de soluções digitais para empresas.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="servicos">
+      <div class="card">
+        <h3>Consultoria T.I</h3>
+        <p>Planejamento, estrutura e suporte com tecnologia.</p>
+      </div>
+      <div class="card">
+        <h3>Sites Profissionais</h3>
+        <p>Criação de sites modernos e otimizados para resultados.</p>
+      </div>
+      <div class="card">
+        <h3>Sistemas Personalizados</h3>
+        <p>Automatize processos com sistemas sob medida.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="portfolio">
+      <div class="card">
+        <h3>Projeto Pet Shop</h3>
+        <p>Site com agendamento e WhatsApp.</p>
+      </div>
+      <div class="card">
+        <h3>Dashboard Empresarial</h3>
+        <p>Painel com indicadores e relatórios.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Fale conosco pelo WhatsApp ou envie uma mensagem.</p>
+    <a class="btn" href="https://wa.me/5599999999999" target="_blank">Falar no WhatsApp</a>
+    <form action="https://formspree.io/f/mblgzzyl" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu email" required />
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button class="btn" type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 InfoMerlin - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
